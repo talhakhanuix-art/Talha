@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Talha Download Manager (TDM) Integration",
+  "version": "1.0.0",
+  "description": "Automatically captures download requests from Chrome and Edge and routes them to Talha Download Manager (TDM).",
+  "permissions": [
+    "downloads",
+    "storage",
+    "nativeMessaging",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Talha Download Manager Integration"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Talha Download Manager (TDM)",
+  "description": "Fast, smart, and free Windows desktop download manager with real multi-connection engine, automatic browser capture, and modern dark UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

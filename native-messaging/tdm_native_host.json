@@ -1,0 +1,9 @@
+{
+  "name": "com.talha.tdm",
+  "description": "Talha Download Manager Native Messaging Host",
+  "path": "tdm-native-host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://*/"
+  ]
+}
